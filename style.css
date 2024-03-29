@@ -21,3 +21,19 @@
 .gallery-image_link {
     text-decoration: none;
 }
+
+.h2-line {
+    position: relative;
+}
+
+.h2-line::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 2px;
+    opacity: 50%;
+    background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.5), rgba(0,0,0,0));
+}
