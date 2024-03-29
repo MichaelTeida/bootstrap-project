@@ -17,3 +17,7 @@
     line-height: 0.4;
     background-color: #fff;
 }
+
+.gallery-image_link {
+    text-decoration: none;
+}
